@@ -1,4 +1,4 @@
-from clases.nombres import Nombres
+from clases.operaciones import Nombres
 
 def main():
     test = Nombres()
