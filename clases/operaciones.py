@@ -2,7 +2,9 @@ class Operaciones:
     def __init__(self):
         self.alejandroMontes = "Alejandro Montes"
 
+
         self.num=0
+
 
     
     def saludoAlejandroMontes(self):
@@ -26,6 +28,13 @@ class Operaciones:
     def operacionesAsignada(self):
         #Realizar la operación asignada
     '''
+
+    def fibonacci(n):
+        if n <= 1:
+            return n
+        else:
+            return (n-1) + (n-2)
+
 
     def minimoLista(self, lista):
         return f"El mínimo es: {min(lista)}"
@@ -72,4 +81,5 @@ class Operaciones:
         if not lista:
             return None  
         return max(lista)
+
 
