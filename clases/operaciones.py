@@ -11,3 +11,7 @@ class Operaciones:
     def operacionesAsignada(self):
         #Realizar la operación asignada
     '''
+    
+    def ordenarLista(self, lista):
+        return sorted(lista)    
+
