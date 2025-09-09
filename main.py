@@ -4,6 +4,13 @@ def main():
     test = Operaciones()
     
     #Prueba base
+
+    print(test.saludoAlejandroMontes())
+
+    numeros = [3, 8, 1, 15, 6]
+    resultado = test.maximo(numeros)
+    print(resultado)
+
     #print(test.saludoAlejandroMontes())
     
 
@@ -18,6 +25,7 @@ def main():
     lista = [1, 2, 2, 3, 4, 4, 5]
     print("Lista original:", lista)
     print("Lista sin duplicados:", test.eliminarDuplicados(lista))
+
 
     
 

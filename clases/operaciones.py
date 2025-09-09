@@ -32,3 +32,8 @@ class Operaciones:
             return True
         else:
             return False
+
+    def maximo(self, lista):
+        if not lista:
+            return None  
+        return max(lista)
