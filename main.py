@@ -1,10 +1,13 @@
-from clases.operaciones import Nombres
+#from clases.operaciones import Nombres
+from clases.operaciones import Operaciones
 
 def main():
-    test = Nombres()
+    #test = Nombres()
+    operaciones=Operaciones()
     
     #Prueba base
-    print(test.saludoAlejandroMontes())
+    #print(test.saludoAlejandroMontes())
+    operaciones.generarTablaMultiplicar()
     
     #Realiza aquí tu prueba
     
