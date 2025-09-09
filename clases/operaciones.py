@@ -6,6 +6,18 @@ class Operaciones:
     def saludoAlejandroMontes(self):
         return "Mi nombre es " + self.alejandroMontes
 
+    
+    
+    def numeroMayo(self,a,b,c):
+        mayor=a
+        if (b>mayor):
+            mayor=b
+        if (c>mayor):
+            mayor=c
+        return mayor
+    
+
+
     def eliminarDuplicados(self, lista):
         return list(set(lista))
 
@@ -37,3 +49,4 @@ class Operaciones:
         if not lista:
             return None  
         return max(lista)
+

@@ -19,6 +19,11 @@ def main():
 
     #Realiza aquí tu prueba
 
+    a=float(input('dame el primer número: '))
+    b=float(input('dame el segundo número: '))
+    c=float(input('dame el tercer número: '))
+
+
     print(test.esPar(4))  
     print(test.esPar(7))  
 
@@ -36,6 +41,7 @@ def main():
     numeros = [5, 1, 9, 3, 7]
     print("Lista original:", numeros)
     print("Lista ordenada:", test.ordenarLista(numeros))
+
 
 
     
