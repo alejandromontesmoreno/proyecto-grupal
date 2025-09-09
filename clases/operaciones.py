@@ -5,7 +5,7 @@ class Operaciones:
     def saludoAlejandroMontes(self):
         return "Mi nombre es " + self.alejandroMontes
 
-    def reemplazarEspaciosPaulina(self, texto, caracter):
-        return texto.replace(" ", caracter)
+    def reemplazarEspaciosPaulina(self, text, caracter):
+        return text.replace(" ", caracter)
     
-        
+    

@@ -7,7 +7,7 @@ def main():
     print(test.saludoAlejandroMontes())
     
     #Prueba reemplazarEspacios
-    resultado = test.reemplazarEspaciosPaulina("Probar función", "_")
+    resultado = test.reemplazarEspaciosPaulina("Probado función", "_")
     print(resultado)  
 
     
