@@ -3,6 +3,9 @@ from clases.operaciones import Operaciones
 def main():
 
     test = Operaciones()
+
+
+    test = Operaciones()
    
     #Prueba base
     #print(test.saludoAlejandroMontes())
@@ -10,12 +13,20 @@ def main():
 
     operaciones=Operaciones()
 
+
     
     #Prueba base
     print(operaciones.saludoAlejandroMontes())
     
 
+    #Prueba reemplazarEspacios
+    resultado = test.reemplazarEspaciosPaulina("Probado función", "_")
+    print(resultado)  
+
+
+
     test = Operaciones()
+
     
     #Prueba base
 

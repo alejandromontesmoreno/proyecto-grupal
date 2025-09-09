@@ -12,6 +12,12 @@ class Operaciones:
     def saludoAlejandroMontes(self):
         return "Mi nombre es " + self.alejandroMontes
 
+
+    def reemplazarEspaciosPaulina(self, text, caracter):
+        return text.replace(" ", caracter)
+    
+    
+
     
 
     def promedioDiegoGarcia(self,lista):
@@ -88,5 +94,6 @@ class Operaciones:
         if not lista:
             return None  
         return max(lista)
+
 
 
