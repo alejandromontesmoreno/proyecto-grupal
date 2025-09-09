@@ -5,6 +5,8 @@ class Operaciones:
     def saludoAlejandroMontes(self):
         return "Mi nombre es " + self.alejandroMontes
     
+    def eliminarDuplicados(self, lista):
+        return list(set(lista))
     '''
     def operacionesAsignada(self):
         #Realizar la operación asignada
