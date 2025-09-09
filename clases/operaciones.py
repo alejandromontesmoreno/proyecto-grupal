@@ -8,15 +8,7 @@ class Operaciones:
 
     def eliminarDuplicados(self, lista):
         return list(set(lista))
-    '''
-    def operacionesAsignada(self):
-        #Realizar la operación asignada
-    '''
 
-
-   
-
-    
     def ordenarLista(self, lista):
         return sorted(lista)    
 
@@ -33,3 +25,10 @@ class Operaciones:
         palabras=texto.split()
         print("En el texto " + texto + ", la palabra "+palabra+" aparece "+str(palabras.count(palabra)) + " veces")
         return palabras.count(palabra)
+
+     #Regresar True si el número es par False en caso contrario
+    def esPar(self, numero):
+        if numero % 2 == 0:
+            return True
+        else:
+            return False
