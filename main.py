@@ -1,6 +1,13 @@
 from clases.operaciones import Operaciones
 
 def main():
+
+    operaciones=Operaciones()
+    
+    #Prueba base
+    print(operaciones.saludoAlejandroMontes())
+    
+
     test = Operaciones()
     
     #Prueba base
@@ -21,6 +28,9 @@ def main():
 
     #Realiza aquí tu prueba
 
+    operaciones.generarTablaMultiplicar()
+
+
     print(test.minimoLista([2,4,5,100,1,30,5]))
 
 
@@ -35,6 +45,7 @@ def main():
     lista = [1, 2, 2, 3, 4, 4, 5]
     print("Lista original:", lista)
     print("Lista sin duplicados:", test.eliminarDuplicados(lista))
+
 
 
 
