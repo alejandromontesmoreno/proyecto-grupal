@@ -1,12 +1,15 @@
-from clases.operaciones import Nombres
+from clases.operaciones import Operaciones
 
 def main():
-    test = Nombres()
+    test = Operaciones()
     
     #Prueba base
     print(test.saludoAlejandroMontes())
     
-    #Realiza aquí tu prueba
+    #Prueba reemplazarEspacios
+    resultado = test.reemplazarEspaciosPaulina("Probar función", "_")
+    print(resultado)  
+
     
     
 if __name__ == '__main__':

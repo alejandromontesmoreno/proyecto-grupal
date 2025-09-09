@@ -4,8 +4,8 @@ class Operaciones:
     
     def saludoAlejandroMontes(self):
         return "Mi nombre es " + self.alejandroMontes
+
+    def reemplazarEspaciosPaulina(self, texto, caracter):
+        return texto.replace(" ", caracter)
     
-    '''
-    def operacionesAsignada(self):
-        #Realizar la operación asignada
-    '''
+        
