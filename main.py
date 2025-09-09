@@ -2,13 +2,14 @@ from clases.operaciones import Operaciones
 
 def main():
 
-    #test = Nombres()
-    
+    test = Operaciones()
+   
     #Prueba base
     #print(test.saludoAlejandroMontes())
 
 
     operaciones=Operaciones()
+
     
     #Prueba base
     print(operaciones.saludoAlejandroMontes())
@@ -26,14 +27,15 @@ def main():
     print(resultado)
 
     #print(test.saludoAlejandroMontes())
-
-
-    
+   
 
     print(test.esImpar(7))
     print(test.esImpar(4))
 
     #Realiza aquí tu prueba
+
+    print(test.promedioDiegoGarcia([1,2,3]))
+
 
     print(Operaciones.fibonacci(10))
 
@@ -57,10 +59,6 @@ def main():
     print("Lista sin duplicados:", test.eliminarDuplicados(lista))
 
 
-
-
-    
-
     #Prueba contarPalabraTexto
     ejemploDiego=Operaciones()
     print(ejemploDiego.contarPalabrasTexto("Hola como estas hola hola como hola","hola"))
@@ -68,9 +66,6 @@ def main():
     numeros = [5, 1, 9, 3, 7]
     print("Lista original:", numeros)
     print("Lista ordenada:", test.ordenarLista(numeros))
-
-
-
 
     
 if __name__ == '__main__':

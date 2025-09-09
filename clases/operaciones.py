@@ -1,4 +1,5 @@
 class Operaciones:
+    
     def __init__(self):
         self.alejandroMontes = "Alejandro Montes"
 
@@ -6,11 +7,16 @@ class Operaciones:
         self.num=0
 
 
+
     
     def saludoAlejandroMontes(self):
         return "Mi nombre es " + self.alejandroMontes
 
     
+
+    def promedioDiegoGarcia(self,lista):
+        return f"El promedio es {sum(lista)/len(lista)}"
+
 
 
     def generarTablaMultiplicar(self):
@@ -23,6 +29,7 @@ class Operaciones:
 
 
     
+
 
     '''
     def operacionesAsignada(self):
