@@ -5,8 +5,11 @@ def main():
     
     #Prueba base
     print(test.saludoAlejandroMontes())
-    
-    #Realiza aquí tu prueba
+
+    numeros = [3, 8, 1, 15, 6]
+    resultado = test.maximo(numeros)
+    print(resultado)
+
     
     
 if __name__ == '__main__':

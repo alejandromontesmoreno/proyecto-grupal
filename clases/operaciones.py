@@ -5,7 +5,8 @@ class Operaciones:
     def saludoAlejandroMontes(self):
         return "Mi nombre es " + self.alejandroMontes
     
-    '''
-    def operacionesAsignada(self):
-        #Realizar la operación asignada
-    '''
+
+    def maximo(self, lista):
+        if not lista:
+            return None  
+        return max(lista)
