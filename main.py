@@ -17,9 +17,15 @@ def main():
     print("Lista sin duplicados:", test.eliminarDuplicados(lista))
 
     
+
+    #Prueba contarPalabraTexto
+    ejemploDiego=Operaciones()
+    print(ejemploDiego.contarPalabrasTexto("Hola como estas hola hola como hola","hola"))
+
     numeros = [5, 1, 9, 3, 7]
     print("Lista original:", numeros)
     print("Lista ordenada:", test.ordenarLista(numeros))
+
     
 if __name__ == '__main__':
     main()    

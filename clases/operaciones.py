@@ -12,6 +12,10 @@ class Operaciones:
     def operacionesAsignada(self):
         #Realizar la operación asignada
     '''
+
+
+   
+
     
     def ordenarLista(self, lista):
         return sorted(lista)    
@@ -23,3 +27,9 @@ class Operaciones:
         else:
             return False   
 
+    def contarPalabrasTexto(self, texto, palabra):
+        texto=texto.lower()
+        palabra=palabra.lower()
+        palabras=texto.split()
+        print("En el texto " + texto + ", la palabra "+palabra+" aparece "+str(palabras.count(palabra)) + " veces")
+        return palabras.count(palabra)
