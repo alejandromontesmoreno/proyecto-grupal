@@ -7,6 +7,15 @@ class Operaciones:
         return "Mi nombre es " + self.alejandroMontes
 
     
+
+    '''
+    def operacionesAsignada(self):
+        #Realizar la operación asignada
+    '''
+
+    def minimoLista(self, lista):
+        return f"El mínimo es: {min(lista)}"
+
     
     def numeroMayo(self,a,b,c):
         mayor=a

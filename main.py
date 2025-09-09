@@ -7,17 +7,22 @@ def main():
 
     print(test.saludoAlejandroMontes())
 
+
     numeros = [3, 8, 1, 15, 6]
     resultado = test.maximo(numeros)
     print(resultado)
 
     #print(test.saludoAlejandroMontes())
+
     
 
     print(test.esImpar(7))
     print(test.esImpar(4))
 
     #Realiza aquí tu prueba
+
+    print(test.minimoLista([2,4,5,100,1,30,5]))
+
 
     a=float(input('dame el primer número: '))
     b=float(input('dame el segundo número: '))
@@ -30,6 +35,7 @@ def main():
     lista = [1, 2, 2, 3, 4, 4, 5]
     print("Lista original:", lista)
     print("Lista sin duplicados:", test.eliminarDuplicados(lista))
+
 
 
     
